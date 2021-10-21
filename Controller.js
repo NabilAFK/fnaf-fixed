@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import BlackoutSound from "./media/Sounds/powerdown.mp3";
+import BlackoutSound from "media/Sounds/powerdown.mp3";
 import { connect } from "react-redux";
-import Game from "./Game";
+import Game from "Game";
 
-import StaticImage from "./media/Textures/Static-Cam.webp";
-import StaticSound from "./media/Sounds/Dead.mp3";
-import VictoryGIF from "./media/Textures/Victory.gif";
-import VictorySound from "./media/Sounds/Clock.mp3";
+import StaticImage from "media/Textures/Static-Cam.webp";
+import StaticSound from "media/Sounds/Dead.mp3";
+import VictoryGIF from "media/Textures/Victory.gif";
+import VictorySound from "media/Sounds/Clock.mp3";
 
 ///89000
 const TIME_TO_CHANGE_HOUR = 89000;
