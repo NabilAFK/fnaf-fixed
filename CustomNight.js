@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./css/CustomNight.module.css"
+import styles from "css/CustomNight.module.css"
 
-import Freddy from "./media/Textures/CustomNight/freddy.png";
-import Bonnie from "./media/Textures/CustomNight/bonnie.png";
-import Chica from "./media/Textures/CustomNight/chica.png";
-import Foxy from "./media/Textures/CustomNight/foxy.png";
+import Freddy from "media/Textures/CustomNight/freddy.png";
+import Bonnie from "media/Textures/CustomNight/bonnie.png";
+import Chica from "media/Textures/CustomNight/chica.png";
+import Foxy from "media/Textures/CustomNight/foxy.png";
 
 const images = {
     Freddy,
