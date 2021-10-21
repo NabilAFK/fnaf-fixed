@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import Controller from "./Controller";
-import "./css/Game.css";
-import * as serviceWorker from "./serviceWorker";
+import Controller from "Controller";
+import "css/Game.css";
+import * as serviceWorker from "serviceWorker";
 import { Provider } from "react-redux";
-import store from "./store/store";
-import CustomNight from "./CustomNight";
+import store from "store/store";
+import CustomNight from "CustomNight";
 
 const initialState = {
   mode: "NORMAL",
