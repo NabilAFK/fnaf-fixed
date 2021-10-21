@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 
-import Animatronic from "./components/Animatronic";
-import Office from "./components/Office";
-import Camera from "./components/Camera";
-import Hud from "./components/Hud";
-import Media from "./components/Media";
+import Animatronic from "components/Animatronic";
+import Office from "components/Office";
+import Camera from "components/Camera";
+import Hud from "components/Hud";
+import Media from "components/Media";
 
 let isBlackout = false;
 
